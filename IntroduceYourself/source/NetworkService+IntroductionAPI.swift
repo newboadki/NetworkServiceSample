@@ -80,6 +80,7 @@ extension NetworkService {
     /// - Returns: a Data instance containing the passed dictionary in JSON format. Nil if the operation could not be completed.
     private func jobApplicationBodyData(from bodyDictionary: Dictionary<String, Any>) -> Data? {
         do {
+            // The resulting data is a encoded in UTF-8.
             let bodyData = try JSONSerialization.data(withJSONObject: bodyDictionary, options: .prettyPrinted)
             return bodyData
         } catch _ {

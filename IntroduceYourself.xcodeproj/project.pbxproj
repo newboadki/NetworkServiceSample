@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		000F9D961F08438400E0C801 /* IntroduceYourselfApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F9D951F08438400E0C801 /* IntroduceYourselfApiTests.swift */; };
 		000F9D9B1F08438E00E0C801 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4231F07D66E008DAE35 /* NetworkService.swift */; };
-		000F9D9C1F08438E00E0C801 /* ServiceLayer+IntroductionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4251F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift */; };
+		000F9D9C1F08438E00E0C801 /* NetworkService+IntroductionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4251F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift */; };
 		000F9D9E1F08456000E0C801 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F9D9D1F08456000E0C801 /* NetworkSession.swift */; };
 		000F9D9F1F08456000E0C801 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F9D9D1F08456000E0C801 /* NetworkSession.swift */; };
 		000F9DA11F08469B00E0C801 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F9DA01F08469B00E0C801 /* URLSessionMock.swift */; };
 		000F9DA31F0846B000E0C801 /* URLSessionDataTaskMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F9DA21F0846B000E0C801 /* URLSessionDataTaskMock.swift */; };
 		0089F41C1F07D61D008DAE35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F41B1F07D61D008DAE35 /* main.swift */; };
 		0089F4241F07D66E008DAE35 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4231F07D66E008DAE35 /* NetworkService.swift */; };
-		0089F4261F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4251F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift */; };
+		0089F4261F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089F4251F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +41,7 @@
 		0089F4181F07D61D008DAE35 /* IntroduceYourself */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroduceYourself; sourceTree = BUILT_PRODUCTS_DIR; };
 		0089F41B1F07D61D008DAE35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0089F4231F07D66E008DAE35 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		0089F4251F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceLayer+IntroductionAPI.swift"; sourceTree = "<group>"; };
+		0089F4251F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkService+IntroductionAPI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				0089F41B1F07D61D008DAE35 /* main.swift */,
 				000F9D9D1F08456000E0C801 /* NetworkSession.swift */,
 				0089F4231F07D66E008DAE35 /* NetworkService.swift */,
-				0089F4251F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift */,
+				0089F4251F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				000F9D9B1F08438E00E0C801 /* NetworkService.swift in Sources */,
 				000F9D9F1F08456000E0C801 /* NetworkSession.swift in Sources */,
 				000F9D961F08438400E0C801 /* IntroduceYourselfApiTests.swift in Sources */,
-				000F9D9C1F08438E00E0C801 /* ServiceLayer+IntroductionAPI.swift in Sources */,
+				000F9D9C1F08438E00E0C801 /* NetworkService+IntroductionAPI.swift in Sources */,
 				000F9DA31F0846B000E0C801 /* URLSessionDataTaskMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +214,7 @@
 				0089F41C1F07D61D008DAE35 /* main.swift in Sources */,
 				000F9D9E1F08456000E0C801 /* NetworkSession.swift in Sources */,
 				0089F4241F07D66E008DAE35 /* NetworkService.swift in Sources */,
-				0089F4261F07E2BE008DAE35 /* ServiceLayer+IntroductionAPI.swift in Sources */,
+				0089F4261F07E2BE008DAE35 /* NetworkService+IntroductionAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
