@@ -8,6 +8,13 @@
 
 import Foundation
 
+/*
+ This program implements a network service that calls an API via POST. Equivalent to the following:
+     curl -H "Content-Type: application/json" -X POST -d '{"name":"Borja", "email": "a@b.com","about":"description","urls":["u1","u2"], "teams":["a"]}' http://localhost:3000/introduction
+ */
+
+
+
 
 var urlSession = URLSession(configuration: URLSessionConfiguration.default)
 var service = NetworkService(session: urlSession)
