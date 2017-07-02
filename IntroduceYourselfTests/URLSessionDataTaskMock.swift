@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+/// Synchronously calls the completion block with the parameters it was configured to.
 class URLSessionDataTaskMock : URLSessionDataTask {
     
     var _error : Error?

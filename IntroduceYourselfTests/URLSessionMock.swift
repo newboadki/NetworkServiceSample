@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Uses a mocked data task to synchronously call the completion block with the parameters it was configured to.
 class URLSessionMock : NetworkSession {
     
     var error : Error?
